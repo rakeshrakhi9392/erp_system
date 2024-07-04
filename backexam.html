@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0"> 
+	<title>Responsive Form Card</title> 
+	<link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+	<link rel="stylesheet" href="backexam.css"> 
+</head> 
+
+<body> 
+    
+	<h1>Backexam Registration</h1> 
+	<div class="form-box">  
+		<form> 
+			<label for="uname"> 
+				Enrollment
+			</label> 
+			<input type="text" id="uname"
+				name="uname"> 
+
+			<label for="email"> 
+				Email Address 
+			</label> 
+			<input type="email" id="email"
+				name="email"> 
+    
+			<label> 
+				<i class="fa-solid fa-list"></i>
+				Opt course
+			</label> 
+			<select name="category">
+                <option value="LAL">LAL</option>
+                <option value="DBMS">DBMS</option>
+                <option value="UMC">UMC</option>
+                <option value="DSA">DSA</option>
+                <option value="DAA">DAA</option>
+                <option value="PPL">PPL</option>
+
+            </select>
+			<button type="submit"> 
+				Submit 
+			</button> 
+            <button type="button" onclick="exit()">Exit</button>
+
+		</form> 
+	</div> 
+</body> 
+<script src="backexam.js"></script>
+</html>
